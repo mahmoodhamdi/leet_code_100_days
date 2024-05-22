@@ -20,7 +20,7 @@ Status: ☑️
 | 19/05/2024 | Basic Programming  | Two Sum                           | 1 hour             | Utilized Dart's Map data structure for efficient lookup, achieving O(n) time complexity instead of O(n^2)      | ☑️     |
 | 20/05/2024 | Basic Programming  | Add Two Numbers                   | 1.5 hours          |       | ☐      |
 | 21/05/2024 | Control Structures | Palindrome Number                 | 1 hour             | This approach avoids string manipulation and directly works with the number itself, making it more efficient.      | ☑️      |
-| 22/05/2024 | Control Structures | Fizz Buzz                         | 1 hour             |       | ☐      |
+| 22/05/2024 | Control Structures | Fizz Buzz                         | .25 hour             |   very basic approach    | ☑️      |
 | 23/05/2024 | Control Structures | Roman to Integer                  | 1 hour             |       | ☐      |
 | 24/05/2024 | Control Structures | Integer to Roman                  | 1.5 hours          |       | ☐      |
 | 25/05/2024 | Control Structures | String to Integer (atoi)          | 1.5 hours          |       | ☐      |
