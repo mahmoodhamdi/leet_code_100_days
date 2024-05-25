@@ -23,7 +23,7 @@ Status: ☑️
 | 22/05/2024 | Control Structures | Fizz Buzz                         | .25 hour             |   very basic approach    | ☑️      |
 | 23/05/2024 | Control Structures | Roman to Integer                  | 1 hour             |   Use a single-character map for Roman numerals Check the next character directly in the loop     | ☑️      |
 | 24/05/2024 | Control Structures | Integer to Roman                  | 1.5 hours          |  List of MapEntries to maintain the order and avoid accessing map by key and Using StringBuffer for efficient string concatenation.     | ☑️      |
-| 25/05/2024 | Control Structures | String to Integer (atoi)          | 1.5 hours          |       | ☐      |
+| 25/05/2024 | Control Structures | String to Integer (atoi)          | 1.5 hours          |    not fully understood    | ☑️      |
 | 26/05/2024 | Basic Programming  | Reverse Integer                   | 1 hour             |       | ☐      |
 | 27/05/2024 | Control Structures | Valid Parentheses                 | 1 hour             |       | ☐      |
 
