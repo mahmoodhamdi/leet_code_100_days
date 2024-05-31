@@ -37,7 +37,7 @@ Status: ☑️
 |------------|-------|-----------------------------------------|--------------------|-------|--------|
 | 28/05/2024 | Arrays | Remove Duplicates from Sorted Array    | 1 hour             |  reread the problem in details     | ☑️       |
 | 29/05/2024 | Arrays | Best Time to Buy and Sell Stock        | 1 hour             |       | ☑️      |
-| 30/05/2024 | Arrays | Contains Duplicate                     | 1 hour             |       | ☐      |
+| 30/05/2024 | Arrays | Contains Duplicate                     | .25 hour             | use set to store the numbers to reduce the time complexity of the algorithm to O(n)      | ☑️      |
 | 31/05/2024 | Arrays | Product of Array Except Self           | 1.5 hours          |       | ☐      |
 | 01/06/2024 | Arrays | Maximum Subarray                       | 1.5 hours          |       | ☐      |
 | 02/06/2024 | Arrays | Merge Intervals                        | 2 hours            |       | ☐      |
