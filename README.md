@@ -39,7 +39,7 @@ Status: ☑️
 | 29/05/2024 | Arrays | Best Time to Buy and Sell Stock        | 1 hour             |       | ☑️      |
 | 30/05/2024 | Arrays | Contains Duplicate                     | .25 hour             | use set to store the numbers to reduce the time complexity of the algorithm to O(n)      | ☑️      |
 | 31/05/2024 | Arrays | Product of Array Except Self           | 1.5 hours          |  we can use two passes through the array. First we calculate the prefix product and then calculate the suffix product.      | ☑️      |
-| 01/06/2024 | Arrays | Maximum Subarray                       | 1.5 hours          |       | ☐      |
+| 01/06/2024 | Arrays | Maximum Subarray                       | 1.5 hours          |       | ☑️      |
 | 02/06/2024 | Arrays | Merge Intervals                        | 2 hours            |       | ☐      |
 | 03/06/2024 | Arrays | Insert Interval                        | 2 hours            |       | ☐      |
 | 04/06/2024 | Arrays | 3Sum                                   | 2 hours            |       | ☐      |
@@ -207,3 +207,15 @@ Status: ☑️
 | 02/09/2024 | Daily Challenge    | LeetCode Daily Challenge                    | 1.5 hours          | Follow daily challenge on LeetCode | ☐ |
 | 03/09/2024 | Daily Challenge    | LeetCode Daily Challenge                    | 1.5 hours          | Follow daily challenge on LeetCode | ☐ |
 | 04/09/2024 | Daily Challenge    | LeetCode Daily Challenge                    | 1.5 hours          | Follow daily challenge on LeetCode | ☐ |
+
+"وَقَالُوا الْحَمْدُ لِلَّهِ الَّذِي هَدَانَا لِهَٰذَا وَمَا كُنَّا لِنَهْتَدِيَ لَوْلَا أَنْ هَدَانَا اللَّهُ ۖ"
+
+---
+
+## Leetcode Stats
+
+![Leetcode Stats](https://leetcard.jacoblin.cool/mahmoudalashwah?theme=dark&font=Inter&ext=heatmap)
+
+---
+
+*"ما أُعطيَ أحدٌ عطاءً أفضلَ وأوسعَ من الصبرِ."* 📈
