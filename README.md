@@ -6,9 +6,9 @@ Welcome to the LeetCode 100 Days Challenge! This challenge is designed to help y
 
 ## Introduction and Setup
 
-Date: 18/05/2024  
-Estimated Duration: 1 hour  
-Notes: Account created, explore site  
+Date: 18/05/2024
+Estimated Duration: 1 hour
+Notes: Account created, explore site
 Status: ☑️
 
 ---
@@ -39,8 +39,8 @@ Status: ☑️
 | 29/05/2024 | Arrays | Best Time to Buy and Sell Stock        | 1 hour             |       | ☑️      |
 | 30/05/2024 | Arrays | Contains Duplicate                     | .25 hour             | use set to store the numbers to reduce the time complexity of the algorithm to O(n)      | ☑️      |
 | 31/05/2024 | Arrays | Product of Array Except Self           | 1.5 hours          |  we can use two passes through the array. First we calculate the prefix product and then calculate the suffix product.      | ☑️      |
-| 01/06/2024 | Arrays | Maximum Subarray                       | 1.5 hours          |       | ☑️      |
-| 02/06/2024 | Arrays | Merge Intervals                        | 2 hours            |       | ☐      |
+| 01/06/2024 | Arrays | Maximum Subarray                       | 0.5 hours          |       | ☑️      |
+| 02/06/2024 | Arrays | Merge Intervals                        | 2 hours            |   Sort intervals by start time. Merge overlapping intervals by updating the end time of the last merged interval.    | ☑️      |
 | 03/06/2024 | Arrays | Insert Interval                        | 2 hours            |       | ☐      |
 | 04/06/2024 | Arrays | 3Sum                                   | 2 hours            |       | ☐      |
 | 05/06/2024 | Arrays | Set Matrix Zeroes                      | 1.5 hours          |       | ☐      |
