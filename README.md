@@ -41,8 +41,8 @@ Status: ☑️
 | 31/05/2024 | Arrays | Product of Array Except Self           | 1.5 hours          |  we can use two passes through the array. First we calculate the prefix product and then calculate the suffix product.      | ☑️      |
 | 01/06/2024 | Arrays | Maximum Subarray                       | 0.5 hours          |       | ☑️      |
 | 02/06/2024 | Arrays | Merge Intervals                        | 2 hours            |   Sort intervals by start time. Merge overlapping intervals by updating the end time of the last merged interval.    | ☑️      |
-| 03/06/2024 | Arrays | Insert Interval                        | 2 hours            |       | ☐      |
-| 04/06/2024 | Arrays | 3Sum                                   | 2 hours            |       | ☐      |
+| 03/06/2024 | Arrays | Insert Interval                        | 2 hours            |Merge all overlapping intervals with the new interval using math.max() and math.min()    | ☑️      |
+| 04/06/2024 | Arrays | 3Sum                                   | 2 hours            |Array Two Pointers Sorting       | ☑️      |
 | 05/06/2024 | Arrays | Set Matrix Zeroes                      | 1.5 hours          |       | ☐      |
 | 06/06/2024 | Arrays | Rotate Image                           | 1.5 hours          |       | ☐      |
 
