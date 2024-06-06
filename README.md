@@ -43,7 +43,7 @@ Status: ☑️
 | 02/06/2024 | Arrays | Merge Intervals                        | 2 hours            |   Sort intervals by start time. Merge overlapping intervals by updating the end time of the last merged interval.    | ☑️      |
 | 03/06/2024 | Arrays | Insert Interval                        | 2 hours            |Merge all overlapping intervals with the new interval using math.max() and math.min()    | ☑️      |
 | 04/06/2024 | Arrays | 3Sum                                   | 2 hours            |Array Two Pointers Sorting       | ☑️      |
-| 05/06/2024 | Arrays | Set Matrix Zeroes                      | 1.5 hours          |       | ☐      |
+| 05/06/2024 | Arrays | Set Matrix Zeroes                      | 1.5 hours          |    Use the first row and column as markers to track zeroes and then zero out the corresponding rows and columns in the matrix   | ☑️      |
 | 06/06/2024 | Arrays | Rotate Image                           | 1.5 hours          |       | ☐      |
 
 "احرص على ما ينفعك، واستعن بالله ولا تعجز."
