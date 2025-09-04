@@ -1,166 +1,175 @@
-# LeetCode 100 Days Challenge
+# 📌 LeetCode 100 Days Challenge
 
-Welcome to the LeetCode 100 Days Challenge! This challenge will help you improve your problem-solving skills by solving various LeetCode problems over 100 days. The challenge is structured into different periods, each focusing on a specific topic.
-
----
-
-## Period 1: Basic Programming (Day 1-10)
-
-| Topic              | LeetCode Problem                  | Link | Estimated Duration | Notes | Status |
-|--------------------|-----------------------------------|------|--------------------|---------|----|
-| Basic Programming  | Add Two Numbers                   | [Link](https://leetcode.com/problems/add-two-numbers/) | 1.5 hours          |       | ☐      |
-
-"وَفِي السَّمَاءِ رِزْقُكُمْ وَمَا تُوعَدُونَ"
+## 🎯 الهدف
+حل 100 مسألة (10 توبيكات × 10 مسائل) خلال 100 يوم من السهل → المتوسط → الصعب.  
+كل فترة = 10 أيام = 10 مسائل.
 
 ---
 
-## Period 3: Strings (Day 21-30)
+## Period 1: Basic Programming (Day 1–10)
 
-| Topic  | LeetCode Problem                        | Link | Estimated Duration | Notes | Status |
-|--------|-----------------------------------------|------|--------------------|---------|----|
-| Strings | Longest Substring Without Repeating Characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 2 hours    |       | ☐      |
-| Strings | Longest Palindromic Substring          | [Link](https://leetcode.com/problems/longest-palindromic-substring/) | 2 hours            |       | ☐      |
-| Strings | String to Integer (atoi)               | [Link](https://leetcode.com/problems/string-to-integer-atoi/) | 1.5 hours          |       | ☐      |
-| Strings | Implement strStr()                     | [Link](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 1 hour             |       | ☐      |
-| Strings | Group Anagrams                         | [Link](https://leetcode.com/problems/group-anagrams/) | 2 hours            |       | ☐      |
-| Strings | Valid Anagram                          | [Link](https://leetcode.com/problems/valid-anagram/) | 1 hour             |       | ☐      |
-| Strings | Minimum Window Substring               | [Link](https://leetcode.com/problems/minimum-window-substring/) | 2 hours            |       | ☐      |
-| Strings | Valid Palindrome                       | [Link](https://leetcode.com/problems/valid-palindrome/) | 1 hour             |       | ☐      |
-| Strings | Longest Common Prefix                  | [Link](https://leetcode.com/problems/longest-common-prefix/) | 1 hour             |       | ☐      |
-| Strings | Count and Say                          | [Link](https://leetcode.com/problems/count-and-say/) | 1 hour             |       | ☐      |
-
-"فَإِذَا فَرَغْتَ فَانْصَبْ"
+| # | Problem | Link | Est. Time | Status |
+|---|---------|------|-----------|--------|
+| 1 | Two Sum | [Link](https://leetcode.com/problems/two-sum/) | 1h | ☐ |
+| 2 | Add Two Numbers | [Link](https://leetcode.com/problems/add-two-numbers/) | 1.5h | ☐ |
+| 3 | Reverse Integer | [Link](https://leetcode.com/problems/reverse-integer/) | 1h | ☐ |
+| 4 | Palindrome Number | [Link](https://leetcode.com/problems/palindrome-number/) | 1h | ☐ |
+| 5 | Plus One | [Link](https://leetcode.com/problems/plus-one/) | 1h | ☐ |
+| 6 | Sqrt(x) | [Link](https://leetcode.com/problems/sqrtx/) | 1h | ☐ |
+| 7 | Pow(x, n) | [Link](https://leetcode.com/problems/powx-n/) | 1h | ☐ |
+| 8 | Merge Sorted Array | [Link](https://leetcode.com/problems/merge-sorted-array/) | 1h | ☐ |
+| 9 | Remove Duplicates from Sorted Array | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 1h | ☐ |
+| 10 | Climbing Stairs | [Link](https://leetcode.com/problems/climbing-stairs/) | 1h | ☐ |
 
 ---
 
-## Period 4: Linked Lists (Day 31-40)
+## Period 2: Control Structures (Day 11–20)
 
-| Topic        | LeetCode Problem                        | Link | Estimated Duration | Notes | Status |
-|--------------|-----------------------------------------|------|--------------------|---------|----|
-| Linked Lists | Reverse Linked List                     | [Link](https://leetcode.com/problems/reverse-linked-list/) | 1 hour             |       | ☐      |
-| Linked Lists | Merge Two Sorted Lists                  | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | 1 hour             |       | ☐      |
-| Linked Lists | Linked List Cycle                       | [Link](https://leetcode.com/problems/linked-list-cycle/) | 1 hour             |       | ☐      |
-| Linked Lists | Remove Nth Node From End of List        | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 1 hour             |       | ☐      |
-| Linked Lists | Reorder List                            | [Link](https://leetcode.com/problems/reorder-list/) | 1.5 hours          |       | ☐      |
-| Linked Lists | Remove Duplicates from Sorted List II   | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | 1.5 hours          |       | ☐      |
-| Linked Lists | Intersection of Two Linked Lists        | [Link](https://leetcode.com/problems/intersection-of-two-linked-lists/) | 1 hour             |       | ☐      |
-| Linked Lists | Add Two Numbers II                      | [Link](https://leetcode.com/problems/add-two-numbers-ii/) | 1.5 hours          |       | ☐      |
-| Linked Lists | Flatten a Multilevel Doubly Linked List | [Link](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | 2 hours            |       | ☐      |
-| Linked Lists | Copy List with Random Pointer           | [Link](https://leetcode.com/problems/copy-list-with-random-pointer/) | 2 hours            |       | ☐      |
-
-"الكيس من دان نفسه وعمل لما بعد الموت، والعاجز من أتبع نفسه هواها وتمنى على الله."
+| # | Problem | Link | Est. Time | Status |
+|---|---------|------|-----------|--------|
+| 1 | Fizz Buzz | [Link](https://leetcode.com/problems/fizz-buzz/) | 0.25h | ☐ |
+| 2 | Roman to Integer | [Link](https://leetcode.com/problems/roman-to-integer/) | 1h | ☐ |
+| 3 | Integer to Roman | [Link](https://leetcode.com/problems/integer-to-roman/) | 1.5h | ☐ |
+| 4 | String to Integer (atoi) | [Link](https://leetcode.com/problems/string-to-integer-atoi/) | 1.5h | ☐ |
+| 5 | Valid Parentheses | [Link](https://leetcode.com/problems/valid-parentheses/) | 1h | ☐ |
+| 6 | Implement strStr() | [Link](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 1h | ☐ |
+| 7 | Count and Say | [Link](https://leetcode.com/problems/count-and-say/) | 1h | ☐ |
+| 8 | Longest Common Prefix | [Link](https://leetcode.com/problems/longest-common-prefix/) | 1h | ☐ |
+| 9 | Length of Last Word | [Link](https://leetcode.com/problems/length-of-last-word/) | 0.5h | ☐ |
+| 10 | Add Binary | [Link](https://leetcode.com/problems/add-binary/) | 1h | ☐ |
 
 ---
 
-## Period 5: Stacks and Queues (Day 41-50)
+## Period 3: Strings (Day 21–30)
 
-| Topic              | LeetCode Problem                        | Link | Estimated Duration | Notes | Status |
-|--------------------|----------------------------------------|------|--------------------|---------|----|
-| Stacks and Queues  | Valid Parentheses                       | [Link](https://leetcode.com/problems/valid-parentheses/) | 1 hour             |       | ☐      |
-| Stacks and Queues  | Min Stack                               | [Link](https://leetcode.com/problems/min-stack/) | 1 hour             |       | ☐      |
-| Stacks and Queues  | Implement Queue using Stacks            | [Link](https://leetcode.com/problems/implement-queue-using-stacks/) | 1 hour             |       | ☐      |
-| Stacks and Queues  | Daily Temperatures                      | [Link](https://leetcode.com/problems/daily-temperatures/) | 1.5 hours          |       | ☐      |
-| Stacks and Queues  | Next Greater Element I                  | [Link](https://leetcode.com/problems/next-greater-element-i/) | 1 hour             |       | ☐      |
-| Stacks and Queues  | Evaluate Reverse Polish Notation        | [Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 1.5 hours          |       | ☐      |
-| Stacks and Queues  | Simplify Path                           | [Link](https://leetcode.com/problems/simplify-path/) | 1.5 hours          |       | ☐      |
-| Stacks and Queues  | Design Circular Queue                   | [Link](https://leetcode.com/problems/design-circular-queue/) | 2 hours            |       | ☐      |
-| Stacks and Queues  | Decode String                           | [Link](https://leetcode.com/problems/decode-string/) | 1.5 hours          |       | ☐      |
-| Stacks and Queues  | Basic Calculator II                     | [Link](https://leetcode.com/problems/basic-calculator-ii/) | 2 hours            |       | ☐      |
-
-"وَمَا تَوْفِيقِي إِلَّا بِاللَّهِ عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ أُنِيبُ"
+| # | Problem | Link | Est. Time | Status |
+|---|---------|------|-----------|--------|
+| 1 | Longest Substring Without Repeating Characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 2h | ☐ |
+| 2 | Longest Palindromic Substring | [Link](https://leetcode.com/problems/longest-palindromic-substring/) | 2h | ☐ |
+| 3 | Group Anagrams | [Link](https://leetcode.com/problems/group-anagrams/) | 2h | ☐ |
+| 4 | Valid Anagram | [Link](https://leetcode.com/problems/valid-anagram/) | 1h | ☐ |
+| 5 | Minimum Window Substring | [Link](https://leetcode.com/problems/minimum-window-substring/) | 2h | ☐ |
+| 6 | Valid Palindrome | [Link](https://leetcode.com/problems/valid-palindrome/) | 1h | ☐ |
+| 7 | Implement strStr() | [Link](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 1h | ☐ |
+| 8 | Count and Say | [Link](https://leetcode.com/problems/count-and-say/) | 1h | ☐ |
+| 9 | Longest Common Prefix | [Link](https://leetcode.com/problems/longest-common-prefix/) | 1h | ☐ |
+| 10 | Multiply Strings | [Link](https://leetcode.com/problems/multiply-strings/) | 2h | ☐ |
 
 ---
 
-## Period 6: Trees (Day 51-60)
+## Period 4: Linked Lists (Day 31–40)
 
-| Topic        | LeetCode Problem                            | Link | Estimated Duration | Notes | Status |
-|--------------|---------------------------------------------|------|--------------------|---------|----|
-| Trees        | Maximum Depth of Binary Tree                | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 1 hour             |       | ☐      |
-| Trees        | Validate Binary Search Tree                 | [Link](https://leetcode.com/problems/validate-binary-search-tree/) | 1.5 hours          |       | ☐      |
-| Trees        | Symmetric Tree                              | [Link](https://leetcode.com/problems/symmetric-tree/) | 1 hour             |       | ☐      |
-| Trees        | Binary Tree Level Order Traversal           | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 1.5 hours          |       | ☐      |
-| Trees        | Convert Sorted Array to Binary Search Tree  | [Link](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | 1.5 hours          |       | ☐      |
-| Trees        | Construct Binary Tree from Preorder and Inorder Traversal | [Link](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 2 hours |       | ☐      |
-| Trees        | Binary Tree Maximum Path Sum                | [Link](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | 2 hours            |       | ☐      |
-| Trees        | Populating Next Right Pointers in Each Node | [Link](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | 1.5 hours          |       | ☐      |
-| Trees        | Serialize and Deserialize Binary Tree       | [Link](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | 2 hours            |       | ☐      |
-| Trees        | Lowest Common Ancestor of a Binary Tree     | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 1.5 hours          |       | ☐      |
-
-"إن الله يحب إذا عمل أحدكم عملاً أن يتقنه."
+| # | Problem | Link | Est. Time | Status |
+|---|---------|------|-----------|--------|
+| 1 | Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | 1h | ☐ |
+| 2 | Remove Nth Node From End of List | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 1h | ☐ |
+| 3 | Reverse Linked List | [Link](https://leetcode.com/problems/reverse-linked-list/) | 1h | ☐ |
+| 4 | Swap Nodes in Pairs | [Link](https://leetcode.com/problems/swap-nodes-in-pairs/) | 1h | ☐ |
+| 5 | Linked List Cycle | [Link](https://leetcode.com/problems/linked-list-cycle/) | 1h | ☐ |
+| 6 | Intersection of Two Linked Lists | [Link](https://leetcode.com/problems/intersection-of-two-linked-lists/) | 1h | ☐ |
+| 7 | Add Two Numbers II | [Link](https://leetcode.com/problems/add-two-numbers-ii/) | 1.5h | ☐ |
+| 8 | Reorder List | [Link](https://leetcode.com/problems/reorder-list/) | 1.5h | ☐ |
+| 9 | Copy List with Random Pointer | [Link](https://leetcode.com/problems/copy-list-with-random-pointer/) | 2h | ☐ |
+| 10 | Flatten a Multilevel Doubly Linked List | [Link](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | 2h | ☐ |
 
 ---
 
-## Period 7: Recursion (Day 61-70)
+## Period 5: Arrays (Day 41–50)
 
-| Topic    | LeetCode Problem                        | Link | Estimated Duration | Notes | Status |
-|----------|-----------------------------------------|------|--------------------|---------|----|
-| Recursion | Climbing Stairs                        | [Link](https://leetcode.com/problems/climbing-stairs/) | 1 hour             |       | ☐      |
-| Recursion | Generate Parentheses                   | [Link](https://leetcode.com/problems/generate-parentheses/) | 1.5 hours          |       | ☐      |
-| Recursion | Merge Two Sorted Lists                 | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | 1 hour             |       | ☐      |
-| Recursion | Swap Nodes in Pairs                    | [Link](https://leetcode.com/problems/swap-nodes-in-pairs/) | 1.5 hours          |       | ☐      |
-| Recursion | Letter Combinations of a Phone Number  | [Link](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | 1.5 hours          |       | ☐      |
-| Recursion | Combinations                           | [Link](https://leetcode.com/problems/combinations/) | 1.5 hours          |       | ☐      |
-| Recursion | Subsets                                | [Link](https://leetcode.com/problems/subsets/) | 1.5 hours          |       | ☐      |
-| Recursion | Permutations                           | [Link](https://leetcode.com/problems/permutations/) | 2 hours            |       | ☐      |
-| Recursion | Combination Sum                        | [Link](https://leetcode.com/problems/combination-sum/) | 2 hours            |       | ☐      |
-| Recursion | Word Search                            | [Link](https://leetcode.com/problems/word-search/) | 2 hours            |       | ☐      |
-
-"إِنَّ اللَّهَ لَا يُضِيعُ أَجْرَ الْمُحْسِنِينَ"
+| # | Problem | Link | Est. Time | Status |
+|---|---------|------|-----------|--------|
+| 1 | Best Time to Buy and Sell Stock | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 1h | ☐ |
+| 2 | Maximum Subarray | [Link](https://leetcode.com/problems/maximum-subarray/) | 1h | ☐ |
+| 3 | Move Zeroes | [Link](https://leetcode.com/problems/move-zeroes/) | 1h | ☐ |
+| 4 | Rotate Array | [Link](https://leetcode.com/problems/rotate-array/) | 1h | ☐ |
+| 5 | Contains Duplicate | [Link](https://leetcode.com/problems/contains-duplicate/) | 1h | ☐ |
+| 6 | Product of Array Except Self | [Link](https://leetcode.com/problems/product-of-array-except-self/) | 1.5h | ☐ |
+| 7 | Merge Intervals | [Link](https://leetcode.com/problems/merge-intervals/) | 1.5h | ☐ |
+| 8 | Insert Interval | [Link](https://leetcode.com/problems/insert-interval/) | 1.5h | ☐ |
+| 9 | Summary Ranges | [Link](https://leetcode.com/problems/summary-ranges/) | 1h | ☐ |
+| 10 | Spiral Matrix | [Link](https://leetcode.com/problems/spiral-matrix/) | 2h | ☐ |
 
 ---
 
-## Period 8: Sorting and Searching (Day 71-80)
+## Period 6: Trees (Day 51–60)
 
-| Topic                | LeetCode Problem                        | Link | Estimated Duration | Notes | Status |
-|----------------------|-----------------------------------------|------|--------------------|---------|----|
-| Sorting and Searching | Merge Sorted Array                     | [Link](https://leetcode.com/problems/merge-sorted-array/) | 1 hour             |       | ☐      |
-| Sorting and Searching | Search in Rotated Sorted Array         | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 1.5 hours          |       | ☐      |
-| Sorting and Searching | Find Minimum in Rotated Sorted Array   | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 1 hour             |       | ☐      |
-| Sorting and Searching | Kth Largest Element in an Array        | [Link](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 1.5 hours          |       | ☐      |
-| Sorting and Searching | Find Peak Element                      | [Link](https://leetcode.com/problems/find-peak-element/) | 1 hour             |       | ☐      |
-| Sorting and Searching | Search a 2D Matrix                     | [Link](https://leetcode.com/problems/search-a-2d-matrix/) | 1.5 hours          |       | ☐      |
-| Sorting and Searching | Median of Two Sorted Arrays            | [Link](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 2 hours            |       | ☐      |
-| Sorting and Searching | Sort Colors                            | [Link](https://leetcode.com/problems/sort-colors/) | 1 hour             |       | ☐      |
-| Sorting and Searching | Top K Frequent Elements                | [Link](https://leetcode.com/problems/top-k-frequent-elements/) | 1.5 hours          |       | ☐      |
-| Sorting and Searching | Find First and Last Position of Element in Sorted Array | [Link](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 1.5 hours |       | ☐      |
-
-"من سلك طريقًا يلتمس فيه علمًا سهل الله له به طريقًا إلى الجنة."
+| # | Problem | Link | Est. Time | Status |
+|---|---------|------|-----------|--------|
+| 1 | Maximum Depth of Binary Tree | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 1h | ☐ |
+| 2 | Same Tree | [Link](https://leetcode.com/problems/same-tree/) | 1h | ☐ |
+| 3 | Symmetric Tree | [Link](https://leetcode.com/problems/symmetric-tree/) | 1h | ☐ |
+| 4 | Binary Tree Inorder Traversal | [Link](https://leetcode.com/problems/binary-tree-inorder-traversal/) | 1h | ☐ |
+| 5 | Binary Tree Level Order Traversal | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 1h | ☐ |
+| 6 | Convert Sorted Array to Binary Search Tree | [Link](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | 1h | ☐ |
+| 7 | Path Sum | [Link](https://leetcode.com/problems/path-sum/) | 1h | ☐ |
+| 8 | Balanced Binary Tree | [Link](https://leetcode.com/problems/balanced-binary-tree/) | 1h | ☐ |
+| 9 | Minimum Depth of Binary Tree | [Link](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | 1h | ☐ |
+| 10 | Construct Binary Tree from Preorder and Inorder Traversal | [Link](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 2h | ☐ |
 
 ---
 
-## Period 9: Dynamic Programming (Day 81-90)
+## Period 7: Recursion & Backtracking (Day 61–70)
 
-| Topic                | LeetCode Problem                        | Link | Estimated Duration | Notes | Status |
-|----------------------|-----------------------------------------|------|--------------------|---------|----|
-| Dynamic Programming   | House Robber (Easy)                    | [Link](https://leetcode.com/problems/house-robber/) | 1 hour             |       | ☐      |
-| Dynamic Programming   | House Robber II (Medium)               | [Link](https://leetcode.com/problems/house-robber-ii/) | 1.5 hours          |       | ☐      |
-| Dynamic Programming   | Longest Increasing Subsequence (Medium)| [Link](https://leetcode.com/problems/longest-increasing-subsequence/) | 2 hours            |       | ☐      |
-| Dynamic Programming   | Coin Change (Medium)                   | [Link](https://leetcode.com/problems/coin-change/) | 2 hours            |       | ☐      |
-| Dynamic Programming   | Maximum Product Subarray (Medium)      | [Link](https://leetcode.com/problems/maximum-product-subarray/) | 1.5 hours          |       | ☐      |
-| Dynamic Programming   | Palindromic Substrings (Medium)        | [Link](https://leetcode.com/problems/palindromic-substrings/) | 2 hours            |       | ☐      |
-| Dynamic Programming   | Word Break (Medium)                    | [Link](https://leetcode.com/problems/word-break/) | 2 hours            |       | ☐      |
-| Dynamic Programming   | Decode Ways (Medium)                   | [Link](https://leetcode.com/problems/decode-ways/) | 1.5 hours          |       | ☐      |
-| Dynamic Programming   | Edit Distance (Hard)                  | [Link](https://leetcode.com/problems/edit-distance/) | 2 hours            |       | ☐      |
-| Dynamic Programming   | Longest Common Subsequence (Medium)   | [Link](https://leetcode.com/problems/longest-common-subsequence/) | 2 hours            |       | ☐      |
-
-"الْفِطْرَةُ فِي كُلِّ أَمْرٍ"
+| # | Problem | Link | Est. Time | Status |
+|---|---------|------|-----------|--------|
+| 1 | Subsets | [Link](https://leetcode.com/problems/subsets/) | 1h | ☐ |
+| 2 | Subsets II | [Link](https://leetcode.com/problems/subsets-ii/) | 1.5h | ☐ |
+| 3 | Permutations | [Link](https://leetcode.com/problems/permutations/) | 1.5h | ☐ |
+| 4 | Permutations II | [Link](https://leetcode.com/problems/permutations-ii/) | 1.5h | ☐ |
+| 5 | Combinations | [Link](https://leetcode.com/problems/combinations/) | 1.5h | ☐ |
+| 6 | Combination Sum | [Link](https://leetcode.com/problems/combination-sum/) | 1.5h | ☐ |
+| 7 | Combination Sum II | [Link](https://leetcode.com/problems/combination-sum-ii/) | 1.5h | ☐ |
+| 8 | Generate Parentheses | [Link](https://leetcode.com/problems/generate-parentheses/) | 2h | ☐ |
+| 9 | Word Search | [Link](https://leetcode.com/problems/word-search/) | 2h | ☐ |
+| 10 | N-Queens | [Link](https://leetcode.com/problems/n-queens/) | 3h | ☐ |
 
 ---
 
-## Period 10: Graphs and Trees (Day 91-100)
+## Period 8: Dynamic Programming (Day 71–80)
 
-| Topic                | LeetCode Problem                        | Link | Estimated Duration | Notes | Status |
-|----------------------|-----------------------------------------|------|--------------------|---------|----|
-| Graphs and Trees      | Number of Islands                      | [Link](https://leetcode.com/problems/number-of-islands/) | 1.5 hours          |       | ☐      |
-| Graphs and Trees      | Clone Graph                            | [Link](https://leetcode.com/problems/clone-graph/) | 2 hours            |       | ☐      |
-| Graphs and Trees      | Course Schedule                        | [Link](https://leetcode.com/problems/course-schedule/) | 2 hours            |       | ☐      |
-| Graphs and Trees      | Pacific Atlantic Water Flow            | [Link](https://leetcode.com/problems/pacific-atlantic-water-flow/) | 2 hours            |       | ☐      |
-| Graphs and Trees      | Word Ladder II                         | [Link](https://leetcode.com/problems/word-ladder-ii/) | 2 hours            |       | ☐      |
-| Graphs and Trees      | Minimum Height Trees                   | [Link](https://leetcode.com/problems/minimum-height-trees/) | 1.5 hours          |       | ☐      |
-| Graphs and Trees      | Find the Redundant Connection          | [Link](https://leetcode.com/problems/redundant-connection/) | 1.5 hours          |       | ☐      |
-| Graphs and Trees      | Network Delay Time                     | [Link](https://leetcode.com/problems/network-delay-time/) | 1.5 hours          |       | ☐      |
-| Graphs and Trees      | Maximum Area of Island                 | [Link](https://leetcode.com/problems/max-area-of-island/) | 1.5 hours          |       | ☐      |
-| Graphs and Trees      | Surrounded Regions                     | [Link](https://leetcode.com/problems/surrounded-regions/) | 2 hours            |       | ☐      |
+| # | Problem | Link | Est. Time | Status |
+|---|---------|------|-----------|--------|
+| 1 | Fibonacci Number | [Link](https://leetcode.com/problems/fibonacci-number/) | 0.5h | ☐ |
+| 2 | Coin Change | [Link](https://leetcode.com/problems/coin-change/) | 2h | ☐ |
+| 3 | Longest Increasing Subsequence | [Link](https://leetcode.com/problems/longest-increasing-subsequence/) | 2h | ☐ |
+| 4 | Unique Paths | [Link](https://leetcode.com/problems/unique-paths/) | 1.5h | ☐ |
+| 5 | Minimum Path Sum | [Link](https://leetcode.com/problems/minimum-path-sum/) | 1.5h | ☐ |
+| 6 | Climbing Stairs (DP) | [Link](https://leetcode.com/problems/climbing-stairs/) | 1h | ☐ |
+| 7 | Edit Distance | [Link](https://leetcode.com/problems/edit-distance/) | 3h | ☐ |
+| 8 | Maximum Product Subarray | [Link](https://leetcode.com/problems/maximum-product-subarray/) | 2h | ☐ |
+| 9 | House Robber | [Link](https://leetcode.com/problems/house-robber/) | 1.5h | ☐ |
+| 10 | House Robber II | [Link](https://leetcode.com/problems/house-robber-ii/) | 2h | ☐ |
 
-"اللهم علمنا ما ينفعنا وانفعنا بما علمتنا"
 ---
+
+## Period 9: Graphs (Day 81–90)
+
+| # | Problem | Link | Est. Time | Status |
+|---|---------|------|-----------|--------|
+| 1 | Number of Islands | [Link](https://leetcode.com/problems/number-of-islands/) | 2h | ☐ |
+| 2 | Clone Graph | [Link](https://leetcode.com/problems/clone-graph/) | 2h | ☐ |
+| 3 | Course Schedule | [Link](https://leetcode.com/problems/course-schedule/) | 2h | ☐ |
+| 4 | Course Schedule II | [Link](https://leetcode.com/problems/course-schedule-ii/) | 2h | ☐ |
+| 5 | Word Ladder | [Link](https://leetcode.com/problems/word-ladder/) | 3h | ☐ |
+| 6 | Word Ladder II | [Link](https://leetcode.com/problems/word-ladder-ii/) | 3h | ☐ |
+| 7 | Graph Valid Tree | [Link](https://leetcode.com/problems/graph-valid-tree/) | 2h | ☐ |
+| 8 | Pacific Atlantic Water Flow | [Link](https://leetcode.com/problems/pacific-atlantic-water-flow/) | 2h | ☐ |
+| 9 | Redundant Connection | [Link](https://leetcode.com/problems/redundant-connection/) | 2h | ☐ |
+| 10 | Surrounded Regions | [Link](https://leetcode.com/problems/surrounded-regions/) | 2h | ☐ |
+
+---
+
+## Period 10: Advanced Topics (Day 91–100)
+
+| # | Problem | Link | Est. Time | Status |
+|---|---------|------|-----------|--------|
+| 1 | LRU Cache | [Link](https://leetcode.com/problems/lru-cache/) | 2h | ☐ |
+| 2 | LFU Cache | [Link](https://leetcode.com/problems/lfu-cache/) | 3h | ☐ |
+| 3 | Median of Two Sorted Arrays | [Link](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 3h | ☐ |
+| 4 | Regular Expression Matching | [Link](https://leetcode.com/problems/regular-expression-matching/) | 3h | ☐ |
+| 5 | Wildcard Matching | [Link](https://leetcode.com/problems/wildcard-matching/) | 3h | ☐ |
+| 6 | Trapping Rain Water | [Link](https://leetcode.com/problems/trapping-rain-water/) | 2h | ☐ |
+| 7 | Minimum Window Substring | [Link](https://leetcode.com/problems/minimum-window-substring/) | 2h | ☐ |
+| 8 | Sliding Window Maximum | [Link](https://leetcode.com/problems/sliding-window-maximum/) | 2h | ☐ |
+| 9 | Merge k Sorted Lists | [Link](https://leetcode.com/problems/merge-k-sorted-lists/) | 3h | ☐ |
+| 10 | First Missing Positive | [Link](https://leetcode.com/problems/first-missing-positive/) | 2h | ☐ |
