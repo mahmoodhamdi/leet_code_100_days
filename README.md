@@ -4,65 +4,30 @@ Welcome to the LeetCode 100 Days Challenge! This challenge will help you improve
 
 ---
 
-## Introduction and Setup
-
-- **Topic**: Account created, explore site
-- **Estimated Duration**: 1 hour
-- **Status**: ☑️
-
----
-
 ## Period 1: Basic Programming (Day 1-10)
 
-| Topic              | LeetCode Problem                  | Estimated Duration | Notes | Status |
-|--------------------|-----------------------------------|--------------------|-------|--------|
-| Basic Programming  | Two Sum                           | 1 hour             | Utilized Dart's Map data structure for efficient lookup, achieving O(n) time complexity instead of O(n^2) | ☑️     |
-| Basic Programming  | Add Two Numbers                   | 1.5 hours          |       | ☐      |
-| Control Structures | Palindrome Number                 | 1 hour             | This approach avoids string manipulation and directly works with the number itself, making it more efficient. | ☑️      |
-| Control Structures | Fizz Buzz                         | .25 hour           | Very basic approach | ☑️      |
-| Control Structures | Roman to Integer                  | 1 hour             | Use a single-character map for Roman numerals and check the next character directly in the loop | ☑️      |
-| Control Structures | Integer to Roman                  | 1.5 hours          | List of MapEntries to maintain the order and avoid accessing map by key, and using StringBuffer for efficient string concatenation. | ☑️      |
-| Control Structures | String to Integer (atoi)          | 1.5 hours          | Not fully understood | ☑️      |
-| Basic Programming  | Reverse Integer                   | 1 hour             | Use modulus operator instead of `.toString()` | ☑️      |
-| Control Structures | Valid Parentheses                 | 1 hour             | Define a map for matching pairs of parentheses to reduce number checks | ☑️      |
+| Topic              | LeetCode Problem                  | Link | Estimated Duration | Notes | Status |
+|--------------------|-----------------------------------|------|--------------------|---------|----|
+| Basic Programming  | Add Two Numbers                   | [Link](https://leetcode.com/problems/add-two-numbers/) | 1.5 hours          |       | ☐      |
 
 "وَفِي السَّمَاءِ رِزْقُكُمْ وَمَا تُوعَدُونَ"
 
 ---
 
-## Period 2: Arrays (Day 11-20)
-
-| Topic | LeetCode Problem                        | Estimated Duration | Notes | Status |
-|-------|-----------------------------------------|--------------------|-------|--------|
-| Arrays | Remove Duplicates from Sorted Array    | 1 hour             | Reread the problem in details | ☑️       |
-| Arrays | Best Time to Buy and Sell Stock        | 1 hour             |       | ☑️      |
-| Arrays | Contains Duplicate                     | .25 hour           | Use set to store the numbers to reduce the time complexity of the algorithm to O(n) | ☑️      |
-| Arrays | Product of Array Except Self           | 1.5 hours          | We can use two passes through the array. First, we calculate the prefix product and then calculate the suffix product. | ☑️      |
-| Arrays | Maximum Subarray                       | 0.5 hours          |       | ☑️      |
-| Arrays | Merge Intervals                        | 2 hours            | Sort intervals by start time. Merge overlapping intervals by updating the end time of the last merged interval. | ☑️      |
-| Arrays | Insert Interval                        | 2 hours            | Merge all overlapping intervals with the new interval using `math.max()` and `math.min()` | ☑️      |
-| Arrays | 3Sum                                   | 2 hours            | Array Two Pointers Sorting | ☑️      |
-| Arrays | Set Matrix Zeroes                      | 1.5 hours          | Use the first row and column as markers to track zeroes and then zero out the corresponding rows and columns in the matrix | ☑️      |
-| Arrays | Rotate Image                           | 1.5 hours          | Array Math Matrix | ☑️      |
-
-"احرص على ما ينفعك، واستعن بالله ولا تعجز."
-
----
-
 ## Period 3: Strings (Day 21-30)
 
-| Topic  | LeetCode Problem                        | Estimated Duration | Notes | Status |
-|--------|-----------------------------------------|--------------------|-------|--------|
-| Strings | Longest Substring Without Repeating Characters | 2 hours    |       | ☐      |
-| Strings | Longest Palindromic Substring          | 2 hours            |       | ☐      |
-| Strings | String to Integer (atoi)               | 1.5 hours          |       | ☐      |
-| Strings | Implement strStr()                     | 1 hour             |       | ☐      |
-| Strings | Group Anagrams                         | 2 hours            |       | ☐      |
-| Strings | Valid Anagram                          | 1 hour             |       | ☐      |
-| Strings | Minimum Window Substring               | 2 hours            |       | ☐      |
-| Strings | Valid Palindrome                       | 1 hour             |       | ☐      |
-| Strings | Longest Common Prefix                  | 1 hour             |       | ☐      |
-| Strings | Count and Say                          | 1 hour             |       | ☐      |
+| Topic  | LeetCode Problem                        | Link | Estimated Duration | Notes | Status |
+|--------|-----------------------------------------|------|--------------------|---------|----|
+| Strings | Longest Substring Without Repeating Characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 2 hours    |       | ☐      |
+| Strings | Longest Palindromic Substring          | [Link](https://leetcode.com/problems/longest-palindromic-substring/) | 2 hours            |       | ☐      |
+| Strings | String to Integer (atoi)               | [Link](https://leetcode.com/problems/string-to-integer-atoi/) | 1.5 hours          |       | ☐      |
+| Strings | Implement strStr()                     | [Link](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 1 hour             |       | ☐      |
+| Strings | Group Anagrams                         | [Link](https://leetcode.com/problems/group-anagrams/) | 2 hours            |       | ☐      |
+| Strings | Valid Anagram                          | [Link](https://leetcode.com/problems/valid-anagram/) | 1 hour             |       | ☐      |
+| Strings | Minimum Window Substring               | [Link](https://leetcode.com/problems/minimum-window-substring/) | 2 hours            |       | ☐      |
+| Strings | Valid Palindrome                       | [Link](https://leetcode.com/problems/valid-palindrome/) | 1 hour             |       | ☐      |
+| Strings | Longest Common Prefix                  | [Link](https://leetcode.com/problems/longest-common-prefix/) | 1 hour             |       | ☐      |
+| Strings | Count and Say                          | [Link](https://leetcode.com/problems/count-and-say/) | 1 hour             |       | ☐      |
 
 "فَإِذَا فَرَغْتَ فَانْصَبْ"
 
@@ -70,18 +35,18 @@ Welcome to the LeetCode 100 Days Challenge! This challenge will help you improve
 
 ## Period 4: Linked Lists (Day 31-40)
 
-| Topic        | LeetCode Problem                        | Estimated Duration | Notes | Status |
-|--------------|-----------------------------------------|--------------------|-------|--------|
-| Linked Lists | Reverse Linked List                     | 1 hour             |       | ☐      |
-| Linked Lists | Merge Two Sorted Lists                  | 1 hour             |       | ☐      |
-| Linked Lists | Linked List Cycle                       | 1 hour             |       | ☐      |
-| Linked Lists | Remove Nth Node From End of List        | 1 hour             |       | ☐      |
-| Linked Lists | Reorder List                            | 1.5 hours          |       | ☐      |
-| Linked Lists | Remove Duplicates from Sorted List II   | 1.5 hours          |       | ☐      |
-| Linked Lists | Intersection of Two Linked Lists        | 1 hour             |       | ☐      |
-| Linked Lists | Add Two Numbers II                      | 1.5 hours          |       | ☐      |
-| Linked Lists | Flatten a Multilevel Doubly Linked List | 2 hours            |       | ☐      |
-| Linked Lists | Copy List with Random Pointer           | 2 hours            |       | ☐      |
+| Topic        | LeetCode Problem                        | Link | Estimated Duration | Notes | Status |
+|--------------|-----------------------------------------|------|--------------------|---------|----|
+| Linked Lists | Reverse Linked List                     | [Link](https://leetcode.com/problems/reverse-linked-list/) | 1 hour             |       | ☐      |
+| Linked Lists | Merge Two Sorted Lists                  | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | 1 hour             |       | ☐      |
+| Linked Lists | Linked List Cycle                       | [Link](https://leetcode.com/problems/linked-list-cycle/) | 1 hour             |       | ☐      |
+| Linked Lists | Remove Nth Node From End of List        | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 1 hour             |       | ☐      |
+| Linked Lists | Reorder List                            | [Link](https://leetcode.com/problems/reorder-list/) | 1.5 hours          |       | ☐      |
+| Linked Lists | Remove Duplicates from Sorted List II   | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | 1.5 hours          |       | ☐      |
+| Linked Lists | Intersection of Two Linked Lists        | [Link](https://leetcode.com/problems/intersection-of-two-linked-lists/) | 1 hour             |       | ☐      |
+| Linked Lists | Add Two Numbers II                      | [Link](https://leetcode.com/problems/add-two-numbers-ii/) | 1.5 hours          |       | ☐      |
+| Linked Lists | Flatten a Multilevel Doubly Linked List | [Link](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | 2 hours            |       | ☐      |
+| Linked Lists | Copy List with Random Pointer           | [Link](https://leetcode.com/problems/copy-list-with-random-pointer/) | 2 hours            |       | ☐      |
 
 "الكيس من دان نفسه وعمل لما بعد الموت، والعاجز من أتبع نفسه هواها وتمنى على الله."
 
@@ -89,18 +54,18 @@ Welcome to the LeetCode 100 Days Challenge! This challenge will help you improve
 
 ## Period 5: Stacks and Queues (Day 41-50)
 
-| Topic              | LeetCode Problem                        | Estimated Duration | Notes | Status |
-|--------------------|-----------------------------------------|--------------------|-------|--------|
-| Stacks and Queues  | Valid Parentheses                       | 1 hour             |       | ☐      |
-| Stacks and Queues  | Min Stack                               | 1 hour             |       | ☐      |
-| Stacks and Queues  | Implement Queue using Stacks            | 1 hour             |       | ☐      |
-| Stacks and Queues  | Daily Temperatures                      | 1.5 hours          |       | ☐      |
-| Stacks and Queues  | Next Greater Element I                  | 1 hour             |       | ☐      |
-| Stacks and Queues  | Evaluate Reverse Polish Notation        | 1.5 hours          |       | ☐      |
-| Stacks and Queues  | Simplify Path                           | 1.5 hours          |       | ☐      |
-| Stacks and Queues  | Design Circular Queue                   | 2 hours            |       | ☐      |
-| Stacks and Queues  | Decode String                           | 1.5 hours          |       | ☐      |
-| Stacks and Queues  | Basic Calculator II                     | 2 hours            |       | ☐      |
+| Topic              | LeetCode Problem                        | Link | Estimated Duration | Notes | Status |
+|--------------------|----------------------------------------|------|--------------------|---------|----|
+| Stacks and Queues  | Valid Parentheses                       | [Link](https://leetcode.com/problems/valid-parentheses/) | 1 hour             |       | ☐      |
+| Stacks and Queues  | Min Stack                               | [Link](https://leetcode.com/problems/min-stack/) | 1 hour             |       | ☐      |
+| Stacks and Queues  | Implement Queue using Stacks            | [Link](https://leetcode.com/problems/implement-queue-using-stacks/) | 1 hour             |       | ☐      |
+| Stacks and Queues  | Daily Temperatures                      | [Link](https://leetcode.com/problems/daily-temperatures/) | 1.5 hours          |       | ☐      |
+| Stacks and Queues  | Next Greater Element I                  | [Link](https://leetcode.com/problems/next-greater-element-i/) | 1 hour             |       | ☐      |
+| Stacks and Queues  | Evaluate Reverse Polish Notation        | [Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 1.5 hours          |       | ☐      |
+| Stacks and Queues  | Simplify Path                           | [Link](https://leetcode.com/problems/simplify-path/) | 1.5 hours          |       | ☐      |
+| Stacks and Queues  | Design Circular Queue                   | [Link](https://leetcode.com/problems/design-circular-queue/) | 2 hours            |       | ☐      |
+| Stacks and Queues  | Decode String                           | [Link](https://leetcode.com/problems/decode-string/) | 1.5 hours          |       | ☐      |
+| Stacks and Queues  | Basic Calculator II                     | [Link](https://leetcode.com/problems/basic-calculator-ii/) | 2 hours            |       | ☐      |
 
 "وَمَا تَوْفِيقِي إِلَّا بِاللَّهِ عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ أُنِيبُ"
 
@@ -108,18 +73,18 @@ Welcome to the LeetCode 100 Days Challenge! This challenge will help you improve
 
 ## Period 6: Trees (Day 51-60)
 
-| Topic        | LeetCode Problem                            | Estimated Duration | Notes | Status |
-|--------------|---------------------------------------------|--------------------|-------|--------|
-| Trees        | Maximum Depth of Binary Tree                | 1 hour             |       | ☐      |
-| Trees        | Validate Binary Search Tree                 | 1.5 hours          |       | ☐      |
-| Trees        | Symmetric Tree                              | 1 hour             |       | ☐      |
-| Trees        | Binary Tree Level Order Traversal           | 1.5 hours          |       | ☐      |
-| Trees        | Convert Sorted Array to Binary Search Tree  | 1.5 hours          |       | ☐      |
-| Trees        | Construct Binary Tree from Preorder and Inorder Traversal | 2 hours |       | ☐      |
-| Trees        | Binary Tree Maximum Path Sum                | 2 hours            |       | ☐      |
-| Trees        | Populating Next Right Pointers in Each Node | 1.5 hours          |       | ☐      |
-| Trees        | Serialize and Deserialize Binary Tree       | 2 hours            |       | ☐      |
-| Trees        | Lowest Common Ancestor of a Binary Tree     | 1.5 hours          |       | ☐      |
+| Topic        | LeetCode Problem                            | Link | Estimated Duration | Notes | Status |
+|--------------|---------------------------------------------|------|--------------------|---------|----|
+| Trees        | Maximum Depth of Binary Tree                | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 1 hour             |       | ☐      |
+| Trees        | Validate Binary Search Tree                 | [Link](https://leetcode.com/problems/validate-binary-search-tree/) | 1.5 hours          |       | ☐      |
+| Trees        | Symmetric Tree                              | [Link](https://leetcode.com/problems/symmetric-tree/) | 1 hour             |       | ☐      |
+| Trees        | Binary Tree Level Order Traversal           | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 1.5 hours          |       | ☐      |
+| Trees        | Convert Sorted Array to Binary Search Tree  | [Link](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | 1.5 hours          |       | ☐      |
+| Trees        | Construct Binary Tree from Preorder and Inorder Traversal | [Link](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 2 hours |       | ☐      |
+| Trees        | Binary Tree Maximum Path Sum                | [Link](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | 2 hours            |       | ☐      |
+| Trees        | Populating Next Right Pointers in Each Node | [Link](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | 1.5 hours          |       | ☐      |
+| Trees        | Serialize and Deserialize Binary Tree       | [Link](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | 2 hours            |       | ☐      |
+| Trees        | Lowest Common Ancestor of a Binary Tree     | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 1.5 hours          |       | ☐      |
 
 "إن الله يحب إذا عمل أحدكم عملاً أن يتقنه."
 
@@ -127,18 +92,18 @@ Welcome to the LeetCode 100 Days Challenge! This challenge will help you improve
 
 ## Period 7: Recursion (Day 61-70)
 
-| Topic    | LeetCode Problem                        | Estimated Duration | Notes | Status |
-|----------|-----------------------------------------|--------------------|-------|--------|
-| Recursion | Climbing Stairs                        | 1 hour             |       | ☐      |
-| Recursion | Generate Parentheses                   | 1.5 hours          |       | ☐      |
-| Recursion | Merge Two Sorted Lists                 | 1 hour             |       | ☐      |
-| Recursion | Swap Nodes in Pairs                    | 1.5 hours          |       | ☐      |
-| Recursion | Letter Combinations of a Phone Number  | 1.5 hours          |       | ☐      |
-| Recursion | Combinations                           | 1.5 hours          |       | ☐      |
-| Recursion | Subsets                                | 1.5 hours          |       | ☐      |
-| Recursion | Permutations                           | 2 hours            |       | ☐      |
-| Recursion | Combination Sum                        | 2 hours            |       | ☐      |
-| Recursion | Word Search                            | 2 hours            |       | ☐      |
+| Topic    | LeetCode Problem                        | Link | Estimated Duration | Notes | Status |
+|----------|-----------------------------------------|------|--------------------|---------|----|
+| Recursion | Climbing Stairs                        | [Link](https://leetcode.com/problems/climbing-stairs/) | 1 hour             |       | ☐      |
+| Recursion | Generate Parentheses                   | [Link](https://leetcode.com/problems/generate-parentheses/) | 1.5 hours          |       | ☐      |
+| Recursion | Merge Two Sorted Lists                 | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | 1 hour             |       | ☐      |
+| Recursion | Swap Nodes in Pairs                    | [Link](https://leetcode.com/problems/swap-nodes-in-pairs/) | 1.5 hours          |       | ☐      |
+| Recursion | Letter Combinations of a Phone Number  | [Link](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | 1.5 hours          |       | ☐      |
+| Recursion | Combinations                           | [Link](https://leetcode.com/problems/combinations/) | 1.5 hours          |       | ☐      |
+| Recursion | Subsets                                | [Link](https://leetcode.com/problems/subsets/) | 1.5 hours          |       | ☐      |
+| Recursion | Permutations                           | [Link](https://leetcode.com/problems/permutations/) | 2 hours            |       | ☐      |
+| Recursion | Combination Sum                        | [Link](https://leetcode.com/problems/combination-sum/) | 2 hours            |       | ☐      |
+| Recursion | Word Search                            | [Link](https://leetcode.com/problems/word-search/) | 2 hours            |       | ☐      |
 
 "إِنَّ اللَّهَ لَا يُضِيعُ أَجْرَ الْمُحْسِنِينَ"
 
@@ -146,18 +111,18 @@ Welcome to the LeetCode 100 Days Challenge! This challenge will help you improve
 
 ## Period 8: Sorting and Searching (Day 71-80)
 
-| Topic                | LeetCode Problem                        | Estimated Duration | Notes | Status |
-|----------------------|-----------------------------------------|--------------------|-------|--------|
-| Sorting and Searching | Merge Sorted Array                     | 1 hour             |       | ☐      |
-| Sorting and Searching | Search in Rotated Sorted Array         | 1.5 hours          |       | ☐      |
-| Sorting and Searching | Find Minimum in Rotated Sorted Array   | 1 hour             |       | ☐      |
-| Sorting and Searching | Kth Largest Element in an Array        | 1.5 hours          |       | ☐      |
-| Sorting and Searching | Find Peak Element                      | 1 hour             |       | ☐      |
-| Sorting and Searching | Search a 2D Matrix                     | 1.5 hours          |       | ☐      |
-| Sorting and Searching | Median of Two Sorted Arrays            | 2 hours            |       | ☐      |
-| Sorting and Searching | Sort Colors                            | 1 hour             |       | ☐      |
-| Sorting and Searching | Top K Frequent Elements                | 1.5 hours          |       | ☐      |
-| Sorting and Searching | Find First and Last Position of Element in Sorted Array | 1.5 hours |       | ☐      |
+| Topic                | LeetCode Problem                        | Link | Estimated Duration | Notes | Status |
+|----------------------|-----------------------------------------|------|--------------------|---------|----|
+| Sorting and Searching | Merge Sorted Array                     | [Link](https://leetcode.com/problems/merge-sorted-array/) | 1 hour             |       | ☐      |
+| Sorting and Searching | Search in Rotated Sorted Array         | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 1.5 hours          |       | ☐      |
+| Sorting and Searching | Find Minimum in Rotated Sorted Array   | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 1 hour             |       | ☐      |
+| Sorting and Searching | Kth Largest Element in an Array        | [Link](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 1.5 hours          |       | ☐      |
+| Sorting and Searching | Find Peak Element                      | [Link](https://leetcode.com/problems/find-peak-element/) | 1 hour             |       | ☐      |
+| Sorting and Searching | Search a 2D Matrix                     | [Link](https://leetcode.com/problems/search-a-2d-matrix/) | 1.5 hours          |       | ☐      |
+| Sorting and Searching | Median of Two Sorted Arrays            | [Link](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 2 hours            |       | ☐      |
+| Sorting and Searching | Sort Colors                            | [Link](https://leetcode.com/problems/sort-colors/) | 1 hour             |       | ☐      |
+| Sorting and Searching | Top K Frequent Elements                | [Link](https://leetcode.com/problems/top-k-frequent-elements/) | 1.5 hours          |       | ☐      |
+| Sorting and Searching | Find First and Last Position of Element in Sorted Array | [Link](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 1.5 hours |       | ☐      |
 
 "من سلك طريقًا يلتمس فيه علمًا سهل الله له به طريقًا إلى الجنة."
 
@@ -165,19 +130,18 @@ Welcome to the LeetCode 100 Days Challenge! This challenge will help you improve
 
 ## Period 9: Dynamic Programming (Day 81-90)
 
-| Topic                | LeetCode Problem                        | Estimated Duration | Notes | Status |
-|----------------------|-----------------------------------------|--------------------|-------|--------|
-| Dynamic Programming   | House Robber (Easy)                    | 1 hour             |       | ☐      |
-| Dynamic Programming   | House Robber II (Medium)               | 1.5 hours          |       | ☐      |
-| Dynamic Programming   | Longest Increasing Subsequence (Medium)| 2 hours            |       | ☐      |
-| Dynamic Programming   | Coin Change (Medium)                   | 2 hours            |       | ☐      |
-| Dynamic Programming   | Maximum Product Subarray (Medium)      | 1.5 hours          |       | ☐      |
-| Dynamic Programming   | Palindromic Substrings (Medium)        | 2 hours            |       | ☐      |
-| Dynamic Programming   | Word Break (Medium)                    | 2 hours            |       | ☐      |
-| Dynamic Programming   | Decode Ways
- (Medium)                   | 1.5 hours          |       | ☐      |
-| Dynamic Programming   | Edit Distance (Hard)                  | 2 hours            |       | ☐      |
-| Dynamic Programming   | Longest Common Subsequence (Medium)   | 2 hours            |       | ☐      |
+| Topic                | LeetCode Problem                        | Link | Estimated Duration | Notes | Status |
+|----------------------|-----------------------------------------|------|--------------------|---------|----|
+| Dynamic Programming   | House Robber (Easy)                    | [Link](https://leetcode.com/problems/house-robber/) | 1 hour             |       | ☐      |
+| Dynamic Programming   | House Robber II (Medium)               | [Link](https://leetcode.com/problems/house-robber-ii/) | 1.5 hours          |       | ☐      |
+| Dynamic Programming   | Longest Increasing Subsequence (Medium)| [Link](https://leetcode.com/problems/longest-increasing-subsequence/) | 2 hours            |       | ☐      |
+| Dynamic Programming   | Coin Change (Medium)                   | [Link](https://leetcode.com/problems/coin-change/) | 2 hours            |       | ☐      |
+| Dynamic Programming   | Maximum Product Subarray (Medium)      | [Link](https://leetcode.com/problems/maximum-product-subarray/) | 1.5 hours          |       | ☐      |
+| Dynamic Programming   | Palindromic Substrings (Medium)        | [Link](https://leetcode.com/problems/palindromic-substrings/) | 2 hours            |       | ☐      |
+| Dynamic Programming   | Word Break (Medium)                    | [Link](https://leetcode.com/problems/word-break/) | 2 hours            |       | ☐      |
+| Dynamic Programming   | Decode Ways (Medium)                   | [Link](https://leetcode.com/problems/decode-ways/) | 1.5 hours          |       | ☐      |
+| Dynamic Programming   | Edit Distance (Hard)                  | [Link](https://leetcode.com/problems/edit-distance/) | 2 hours            |       | ☐      |
+| Dynamic Programming   | Longest Common Subsequence (Medium)   | [Link](https://leetcode.com/problems/longest-common-subsequence/) | 2 hours            |       | ☐      |
 
 "الْفِطْرَةُ فِي كُلِّ أَمْرٍ"
 
@@ -185,18 +149,18 @@ Welcome to the LeetCode 100 Days Challenge! This challenge will help you improve
 
 ## Period 10: Graphs and Trees (Day 91-100)
 
-| Topic                | LeetCode Problem                        | Estimated Duration | Notes | Status |
-|----------------------|-----------------------------------------|--------------------|-------|--------|
-| Graphs and Trees      | Number of Islands                      | 1.5 hours          |       | ☐      |
-| Graphs and Trees      | Clone Graph                            | 2 hours            |       | ☐      |
-| Graphs and Trees      | Course Schedule                        | 2 hours            |       | ☐      |
-| Graphs and Trees      | Pacific Atlantic Water Flow            | 2 hours            |       | ☐      |
-| Graphs and Trees      | Word Ladder II                         | 2 hours            |       | ☐      |
-| Graphs and Trees      | Minimum Height Trees                   | 1.5 hours          |       | ☐      |
-| Graphs and Trees      | Find the Redundant Connection          | 1.5 hours          |       | ☐      |
-| Graphs and Trees      | Network Delay Time                     | 1.5 hours          |       | ☐      |
-| Graphs and Trees      | Maximum Area of Island                 | 1.5 hours          |       | ☐      |
-| Graphs and Trees      | Surrounded Regions                     | 2 hours            |       | ☐      |
+| Topic                | LeetCode Problem                        | Link | Estimated Duration | Notes | Status |
+|----------------------|-----------------------------------------|------|--------------------|---------|----|
+| Graphs and Trees      | Number of Islands                      | [Link](https://leetcode.com/problems/number-of-islands/) | 1.5 hours          |       | ☐      |
+| Graphs and Trees      | Clone Graph                            | [Link](https://leetcode.com/problems/clone-graph/) | 2 hours            |       | ☐      |
+| Graphs and Trees      | Course Schedule                        | [Link](https://leetcode.com/problems/course-schedule/) | 2 hours            |       | ☐      |
+| Graphs and Trees      | Pacific Atlantic Water Flow            | [Link](https://leetcode.com/problems/pacific-atlantic-water-flow/) | 2 hours            |       | ☐      |
+| Graphs and Trees      | Word Ladder II                         | [Link](https://leetcode.com/problems/word-ladder-ii/) | 2 hours            |       | ☐      |
+| Graphs and Trees      | Minimum Height Trees                   | [Link](https://leetcode.com/problems/minimum-height-trees/) | 1.5 hours          |       | ☐      |
+| Graphs and Trees      | Find the Redundant Connection          | [Link](https://leetcode.com/problems/redundant-connection/) | 1.5 hours          |       | ☐      |
+| Graphs and Trees      | Network Delay Time                     | [Link](https://leetcode.com/problems/network-delay-time/) | 1.5 hours          |       | ☐      |
+| Graphs and Trees      | Maximum Area of Island                 | [Link](https://leetcode.com/problems/max-area-of-island/) | 1.5 hours          |       | ☐      |
+| Graphs and Trees      | Surrounded Regions                     | [Link](https://leetcode.com/problems/surrounded-regions/) | 2 hours            |       | ☐      |
 
 "اللهم علمنا ما ينفعنا وانفعنا بما علمتنا"
 ---
